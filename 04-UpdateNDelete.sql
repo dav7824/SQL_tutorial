@@ -26,7 +26,7 @@ SET major = 'Biochemistry'
 WHERE major = 'Bio' OR major = 'Chemistry';
 
 UPDATE student
-SET name = 'Tom', major = 'undecided',
+SET name = 'Tom', major = 'undecided'
 WHERE student_id = 1;
 
 UPDATE student
