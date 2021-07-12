@@ -52,7 +52,6 @@ CREATE TABLE branch_supplier (
 );
 
 
---------------------------------------------------------------------------------
 
 -- Corporate
 INSERT INTO employee VALUES(100, 'David', 'Wallace', '1967-11-17', 'M', 250000, NULL, NULL);
