@@ -25,6 +25,8 @@ CREATE
 DELIMITER ;
 
 /* Example 3 */
+/* Warning: Unknown bug in this trigger! (I'm still not familiar with the 
+related syntax) */
 DELIMITER $$
 CREATE
     TRIGGER my_trigger2 BEFORE INSERT
