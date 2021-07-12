@@ -48,7 +48,7 @@ FROM employee;  -- Return 8, # of non-null super_id
 -- Find the number of female employees born after 1970
 SELECT COUNT(emp_id)
 FROM employee
-WHERE sex = 'F' AND birth_data > '1970-01-01';
+WHERE sex = 'F' AND birth_day > '1970-01-01';
 
 -- Find the average of all employee's salaries
 SELECT AVG(salary)

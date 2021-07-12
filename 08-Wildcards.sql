@@ -15,4 +15,4 @@ WHERE supplier_name LIKE '% Label%';
 -- Find any employees born in October
 SELECT *
 FROM employee
-WHERE birth_data LIKE '____-10%';
+WHERE birth_day LIKE '____-10%';
